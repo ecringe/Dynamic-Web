@@ -1,0 +1,105 @@
+.loginContainer{
+  background-color: rgba(78, 54, 16, 0.65);
+
+  width: 40%;
+  height: 40%;
+
+  padding: 30px 40px;
+
+  top: 25.5%;
+  left: 27%;
+}
+.loginContainer div{
+  position: relative;
+}
+
+.loginContainer h1{
+  font-size: 36px;
+  text-align: center;
+  margin: 2% 0;  
+}
+
+.loginContainer .inputBox{
+  width: 95%;
+  height: 50px;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+.inputBox input{
+  background: transparent;
+
+  font-size: 16px;
+  color: #F5A101;
+
+  border: none;
+  border: 2px solid #e95412;
+  border-radius: 25px;
+
+  outline: none;
+  padding: 10px 10px 10px 25px;
+
+  width: 100%;
+  height: 100%;
+}
+.inputBox input::placeholder{
+  color: #F5A101;
+}
+
+.loginContainer .rememberForgot{
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: 0 0 20px;
+}
+
+.rememberForgot{
+  color: black;
+}
+.rememberForgot label input{
+  accent-color: #4E3610;
+  margin-right: 3px;
+}
+
+.rememberForgot a{
+  color: black;
+  text-decoration: none;
+}
+.rememberForgot a:hover{
+  text-decoration: underline;
+}
+
+.loginContainer button{
+  background: none;
+  cursor: pointer;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: #F5A101;
+
+  border: none;
+  border: 2px solid #e95412;
+  border-radius: 25px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  outline: none;
+  padding: 10px 10px 10px 25px;
+
+  width: 100%;
+  height: 45px;
+}
+
+.loginContainer .registerLink{
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+.registerLink p a{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.registerLink p a:hover{
+  text-decoration: underline;
+}

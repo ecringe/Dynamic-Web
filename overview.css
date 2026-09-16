@@ -1,0 +1,32 @@
+.overviewShowcase{
+  background-image: url(imgs/oldletter.avif);
+
+  color: rgba(78, 54, 17, 1.00);
+  font-size: 28px;
+  line-height: 2.5;
+
+  overflow: scroll;
+  overflow-x: hidden;
+  
+  top: 15%;
+  left: 15%;
+  width: 70%;
+  height: 70%;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0); 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgba(164, 117, 47, 0.6);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(164, 117, 47, 0.9); 
+}
